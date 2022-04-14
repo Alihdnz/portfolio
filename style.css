@@ -1,0 +1,239 @@
+:root {
+    --body-bg-color: #DDDDDD;
+    --text-color: #837E9F;
+    --text-color-hover: #5c586f;
+    --bg-cards: #f2f2f2;
+    --bg-techs: #CF003E;
+  }
+
+* {
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: var(--text-color);
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    background: var(--body-bg-color);
+        
+}
+
+.card.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 21.75rem;
+    height: 18.25rem;
+
+
+}
+
+.card.projects-card {
+    width: 59.5rem;
+    height: 5.375rem;
+}
+
+.card.projects-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-left: 1.875rem;
+}
+
+.card.projects-card a {
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-right: 1.875rem;
+    transition: 0.2s ease-in;
+}
+
+.card.projects-card a:hover {
+    color: var(--text-color-hover);
+}
+
+
+.card.contacts .item:first-child{
+    margin-top: 1.875rem;
+}
+
+.card.contacts .item:last-child{
+    margin-bottom: 1.875rem;
+}
+
+
+.card.contacts .item{
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    margin-left: 2.5rem;
+    
+}
+
+.card.contacts .item span{
+    font-weight: 400;
+    font-size: 0.75rem;
+    margin-left: 1.25rem;
+}
+
+.card .techs {
+    margin-left: 1.875rem;
+    margin-top: 0.80rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.card .techs .item {
+    margin-bottom: 1.375rem;
+    font-weight: 500;
+    font-size: 10px;
+    width: 5.375rem;
+    height: 1.5rem;
+    
+    background: var(--bg-techs);
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card.experiences{
+    padding-bottom: 1.25rem;
+}
+
+.card .experienceContent{
+    margin-top: 1.25rem;
+    margin-left: 2.5rem;
+
+}
+
+.card .experienceContent .experience{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1.25rem;
+}
+
+.card .experienceContent .experienceTime {
+    font-size: 0.875rem;
+    font-weight: 400;
+   
+}
+
+.card.educations{
+    padding-bottom: 1.25rem;
+}
+
+.card .educationContent{
+    margin-top: 1.25rem;
+    margin-left: 2.5rem;
+
+}
+
+.card .educationContent .education{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1.25rem;
+}
+
+.card .educationContent .educationTime {
+    font-size: 0.875rem;
+    font-weight: 400;
+   
+}
+
+.card.project {
+    width: 27.812rem;
+    height: 11.62rem;
+}
+
+.card.project .content {
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;
+}
+
+.card.project .content .projectDescription {
+    margin-top: 1.25rem;
+}
+
+.card.project .content .subtitle {
+    margin-top: 0rem;
+    margin-left: 0rem;
+}
+
+.card.project .content .subtitle i {
+    margin-right: 1rem;
+}
+
+.card.project .info {
+    margin-top: 2.25rem;
+    margin-left: 1.25rem;
+}
+
+.card.project .info .infoStack {
+    
+    margin-right: 1.25rem;
+}
+
+.card.project .info .infoStack .languageColor {
+    background: #E7DE79;
+    border: 2px solid #78729F;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+}
+
+.card.project .info .infoStack .language {
+    margin-left: 0.7rem;
+}
+
+.card.project .info .infoInteraction span {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-left: 0.7rem;
+}
+
+.card.project .info .infoInteraction .github_branch {
+    margin-left: 1rem;
+}
+
+.card.posts-card {
+    width: 59.5rem;
+    height: 5.375rem;
+}
+
+.card.posts-card .subtitle {
+    margin-top: 0rem;    
+}
+
+.profile img {
+    width: 8rem;
+    height:  8rem;
+    margin-bottom: 1.875rem;
+    border: 2px solid var(--bg-techs) ;
+    border-radius: 100%;
+
+}
+
+.profile .name {
+    font-weight: 700;
+    font-size: 1.4375rem;
+    margin-bottom: 0.625rem;
+
+}
+
+.profile .description {
+    font-weight: 300;
+    font-size: 0.8125rem;
+
+}
+
+

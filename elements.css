@@ -1,0 +1,47 @@
+
+
+
+
+.card {
+background: var(--bg-cards);
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 20px;
+margin:0.9375rem 1.875rem 0.9375rem 1.875rem
+;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-left: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.itens.center {
+    align-items: center;
+}
+
+.content.center{
+    justify-content: center;
+}
+
+.space.between {
+    justify-content: space-between;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
