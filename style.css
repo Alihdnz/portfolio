@@ -236,4 +236,36 @@ body {
 
 }
 
+.postsContainer .card {
+    width: 100%;
+}
+
+.postsContainer	.card .content .subtitle {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.postsContainer	.card .content .time {
+    font-size: 14px;
+    font-weight: 400;
+  
+}
+
+.postsContainer .card .content p {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.postsContainer .card .content .tags .tag {
+    margin-right: 15px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+
+.postsContainer .card img {
+    width: 150px;
+    margin: 30px ;
+}
 
